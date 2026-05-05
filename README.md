@@ -1,5 +1,9 @@
 # 📚 EpubToAudiobook
 
+Version: 1.1.0
+
+ApplicationId / package: `com.shell.epubtoaudiobook`
+
 Application Android qui convertit vos fichiers EPUB en audiobooks en utilisant le moteur TTS (Text-to-Speech) local de votre appareil, sans connexion internet requise.
 
 ## ✨ Fonctionnalités
