@@ -1,4 +1,4 @@
-package com.example.epubtoaudiobook.ui.screens
+package com.shell.epubtoaudiobook.ui.screens
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -19,9 +19,9 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import coil.compose.AsyncImage
-import com.example.epubtoaudiobook.data.model.AudiobookEntity
-import com.example.epubtoaudiobook.data.model.PlaybackStateEntity
-import com.example.epubtoaudiobook.ui.viewmodel.AudiobookLibraryViewModel
+import com.shell.epubtoaudiobook.data.model.AudiobookEntity
+import com.shell.epubtoaudiobook.data.model.PlaybackStateEntity
+import com.shell.epubtoaudiobook.ui.viewmodel.AudiobookLibraryViewModel
 import java.io.File
 import java.util.concurrent.TimeUnit
 

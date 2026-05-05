@@ -1,4 +1,4 @@
-package com.example.epubtoaudiobook.ui.viewmodel
+package com.shell.epubtoaudiobook.ui.viewmodel
 
 import android.app.Application
 import android.net.Uri
@@ -9,11 +9,11 @@ import androidx.media3.common.MediaItem
 import androidx.media3.common.MediaMetadata
 import androidx.media3.common.Player
 import androidx.media3.exoplayer.ExoPlayer
-import com.example.epubtoaudiobook.data.model.AudiobookEntity
-import com.example.epubtoaudiobook.data.model.ChapterMark
-import com.example.epubtoaudiobook.data.model.PlaybackStateEntity
-import com.example.epubtoaudiobook.data.repository.AudiobookRepository
-import com.example.epubtoaudiobook.data.repository.PlaybackRepository
+import com.shell.epubtoaudiobook.data.model.AudiobookEntity
+import com.shell.epubtoaudiobook.data.model.ChapterMark
+import com.shell.epubtoaudiobook.data.model.PlaybackStateEntity
+import com.shell.epubtoaudiobook.data.repository.AudiobookRepository
+import com.shell.epubtoaudiobook.data.repository.PlaybackRepository
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import kotlinx.coroutines.*

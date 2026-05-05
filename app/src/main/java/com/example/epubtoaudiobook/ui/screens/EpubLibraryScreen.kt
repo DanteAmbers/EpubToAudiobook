@@ -1,4 +1,4 @@
-package com.example.epubtoaudiobook.ui.screens
+package com.shell.epubtoaudiobook.ui.screens
 
 import android.Manifest
 import android.os.Build
@@ -25,9 +25,9 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import coil.compose.AsyncImage
-import com.example.epubtoaudiobook.data.model.ConversionStatus
-import com.example.epubtoaudiobook.data.model.EpubBookEntity
-import com.example.epubtoaudiobook.ui.viewmodel.EpubLibraryViewModel
+import com.shell.epubtoaudiobook.data.model.ConversionStatus
+import com.shell.epubtoaudiobook.data.model.EpubBookEntity
+import com.shell.epubtoaudiobook.ui.viewmodel.EpubLibraryViewModel
 import java.io.File
 
 @OptIn(ExperimentalMaterial3Api::class)

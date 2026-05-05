@@ -1,4 +1,4 @@
-package com.example.epubtoaudiobook.ui.theme
+package com.shell.epubtoaudiobook.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

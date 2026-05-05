@@ -1,7 +1,7 @@
-package com.example.epubtoaudiobook.data.db
+package com.shell.epubtoaudiobook.data.db
 
 import androidx.room.*
-import com.example.epubtoaudiobook.data.model.*
+import com.shell.epubtoaudiobook.data.model.*
 import kotlinx.coroutines.flow.Flow
 
 @Dao

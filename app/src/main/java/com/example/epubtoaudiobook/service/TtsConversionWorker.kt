@@ -1,4 +1,4 @@
-package com.example.epubtoaudiobook.service
+package com.shell.epubtoaudiobook.service
 
 import android.content.Context
 import android.media.MediaPlayer
@@ -8,8 +8,8 @@ import android.speech.tts.TextToSpeech
 import android.speech.tts.UtteranceProgressListener
 import android.util.Log
 import androidx.work.*
-import com.example.epubtoaudiobook.data.model.*
-import com.example.epubtoaudiobook.data.repository.*
+import com.shell.epubtoaudiobook.data.model.*
+import com.shell.epubtoaudiobook.data.repository.*
 import com.google.gson.Gson
 import nl.siegmann.epublib.epub.EpubReader
 import org.jsoup.Jsoup

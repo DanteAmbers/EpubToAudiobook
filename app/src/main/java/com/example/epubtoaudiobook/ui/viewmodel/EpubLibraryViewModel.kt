@@ -1,4 +1,4 @@
-package com.example.epubtoaudiobook.ui.viewmodel
+package com.shell.epubtoaudiobook.ui.viewmodel
 
 import android.app.Application
 import android.net.Uri
@@ -6,9 +6,9 @@ import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
 import androidx.work.WorkInfo
 import androidx.work.WorkManager
-import com.example.epubtoaudiobook.data.model.*
-import com.example.epubtoaudiobook.data.repository.EpubRepository
-import com.example.epubtoaudiobook.service.TtsConversionWorker
+import com.shell.epubtoaudiobook.data.model.*
+import com.shell.epubtoaudiobook.data.repository.EpubRepository
+import com.shell.epubtoaudiobook.service.TtsConversionWorker
 import kotlinx.coroutines.flow.*
 import kotlinx.coroutines.launch
 import nl.siegmann.epublib.epub.EpubReader

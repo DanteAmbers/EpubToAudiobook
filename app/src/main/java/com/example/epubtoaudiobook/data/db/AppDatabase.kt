@@ -1,10 +1,10 @@
-package com.example.epubtoaudiobook.data.db
+package com.shell.epubtoaudiobook.data.db
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.example.epubtoaudiobook.data.model.*
+import com.shell.epubtoaudiobook.data.model.*
 
 @Database(
     entities = [EpubBookEntity::class, AudiobookEntity::class, PlaybackStateEntity::class],

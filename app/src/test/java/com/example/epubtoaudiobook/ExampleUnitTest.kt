@@ -1,4 +1,4 @@
-package com.example.epubtoaudiobook
+package com.shell.epubtoaudiobook
 
 import org.junit.Test
 
