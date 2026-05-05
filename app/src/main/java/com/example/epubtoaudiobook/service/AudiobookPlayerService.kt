@@ -1,4 +1,4 @@
-package com.example.epubtoaudiobook.service
+package com.shell.epubtoaudiobook.service
 
 import android.app.PendingIntent
 import android.content.Intent
@@ -7,7 +7,7 @@ import androidx.media3.common.Player
 import androidx.media3.exoplayer.ExoPlayer
 import androidx.media3.session.MediaSession
 import androidx.media3.session.MediaSessionService
-import com.example.epubtoaudiobook.MainActivity
+import com.shell.epubtoaudiobook.MainActivity
 
 class AudiobookPlayerService : MediaSessionService() {
 

@@ -1,4 +1,4 @@
-package com.example.epubtoaudiobook.ui.screens
+package com.shell.epubtoaudiobook.ui.screens
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -23,8 +23,8 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import coil.compose.AsyncImage
-import com.example.epubtoaudiobook.data.model.ChapterMark
-import com.example.epubtoaudiobook.ui.viewmodel.PlayerViewModel
+import com.shell.epubtoaudiobook.data.model.ChapterMark
+import com.shell.epubtoaudiobook.ui.viewmodel.PlayerViewModel
 import java.io.File
 
 @OptIn(ExperimentalMaterial3Api::class)

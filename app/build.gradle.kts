@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.epubtoaudiobook"
+    namespace = "com.shell.epubtoaudiobook"
     compileSdk {
         version = release(36) {
             minorApiLevel = 1

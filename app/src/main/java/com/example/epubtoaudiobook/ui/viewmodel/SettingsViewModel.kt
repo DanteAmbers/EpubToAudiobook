@@ -1,4 +1,4 @@
-package com.example.epubtoaudiobook.ui.viewmodel
+package com.shell.epubtoaudiobook.ui.viewmodel
 
 import android.app.Application
 import android.speech.tts.TextToSpeech

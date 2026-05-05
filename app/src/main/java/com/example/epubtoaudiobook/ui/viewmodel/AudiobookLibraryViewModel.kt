@@ -1,12 +1,12 @@
-package com.example.epubtoaudiobook.ui.viewmodel
+package com.shell.epubtoaudiobook.ui.viewmodel
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.epubtoaudiobook.data.model.AudiobookEntity
-import com.example.epubtoaudiobook.data.model.PlaybackStateEntity
-import com.example.epubtoaudiobook.data.repository.AudiobookRepository
-import com.example.epubtoaudiobook.data.repository.PlaybackRepository
+import com.shell.epubtoaudiobook.data.model.AudiobookEntity
+import com.shell.epubtoaudiobook.data.model.PlaybackStateEntity
+import com.shell.epubtoaudiobook.data.repository.AudiobookRepository
+import com.shell.epubtoaudiobook.data.repository.PlaybackRepository
 import kotlinx.coroutines.flow.*
 import kotlinx.coroutines.launch
 

@@ -1,4 +1,4 @@
-package com.example.epubtoaudiobook
+package com.shell.epubtoaudiobook
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -17,11 +17,11 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.navigation.NavDestination.Companion.hierarchy
 import androidx.navigation.NavGraph.Companion.findStartDestination
 import androidx.navigation.compose.*
-import com.example.epubtoaudiobook.ui.screens.AudiobookLibraryScreen
-import com.example.epubtoaudiobook.ui.screens.EpubLibraryScreen
-import com.example.epubtoaudiobook.ui.screens.PlayerScreen
-import com.example.epubtoaudiobook.ui.screens.SettingsScreen
-import com.example.epubtoaudiobook.ui.theme.EpubToAudiobookTheme
+import com.shell.epubtoaudiobook.ui.screens.AudiobookLibraryScreen
+import com.shell.epubtoaudiobook.ui.screens.EpubLibraryScreen
+import com.shell.epubtoaudiobook.ui.screens.PlayerScreen
+import com.shell.epubtoaudiobook.ui.screens.SettingsScreen
+import com.shell.epubtoaudiobook.ui.theme.EpubToAudiobookTheme
 
 sealed class BottomNavItem(val route: String, val label: String, val icon: ImageVector) {
     object Epub : BottomNavItem("epub", "EPUB", Icons.Default.Book)
