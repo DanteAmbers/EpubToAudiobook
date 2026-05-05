@@ -176,7 +176,7 @@ fun EpubBookCard(book: EpubBookEntity, onConvert: () -> Unit, onDelete: () -> Un
                             Text("Conversion en cours... ${book.conversionProgress}%", style = MaterialTheme.typography.labelSmall)
                             Spacer(Modifier.height(4.dp))
                             val progress by animateFloatAsState(book.conversionProgress / 100f, label = "progress")
-                            LinearProgressIndicator(progress = { progress }, modifier = Modifier.fillMaxWidth())
+                            LinearProgressIndicator(progress = progress, modifier = Modifier.fillMaxWidth())
                         }
                     }
                     ConversionStatus.DONE -> {
