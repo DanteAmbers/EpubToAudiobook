@@ -13,11 +13,12 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.example.epubtoaudiobook"
+        applicationId = "com.shell.epubtoaudiobook"
         minSdk = 24
         targetSdk = 36
-        versionCode = 1
-        versionName = "1.0"
+        // Bumped for v1.1.0
+        versionCode = 2
+        versionName = "1.1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }

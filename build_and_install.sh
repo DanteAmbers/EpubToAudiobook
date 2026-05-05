@@ -4,6 +4,8 @@ set -e
 
 PROJECT_DIR="$(cd "$(dirname "$0")" && pwd)"
 APK="$PROJECT_DIR/app/build/outputs/apk/debug/app-debug.apk"
+# Renamed APK to application name with version
+RENAMED_APK="$PROJECT_DIR/EpubToAudiobook-1.1.0.apk"
 
 echo "====================================="
 echo "  EPUB → Audiobook — Build & Install"
@@ -40,14 +42,20 @@ fi
 APK_SIZE=$(du -h "$APK" | awk '{print $1}')
 echo "✅ Compilation réussie — APK : $APK_SIZE"
 
+# Copy and rename APK to application-friendly name for release/installation
+cp -f "$APK" "$RENAMED_APK"
+echo "✅ APK renommé : $(basename "$RENAMED_APK")"
+
 # Installation
 echo ""
 echo "📦 Installation sur $DEVICE_MODEL..."
-adb -s "$DEVICE" install -r "$APK"
+# Install the renamed APK so its filename matches the app name
+adb -s "$DEVICE" install -r "$RENAMED_APK"
 
 echo ""
 echo "🚀 Lancement de l'application..."
-adb -s "$DEVICE" shell am start -n "com.example.epubtoaudiobook/.MainActivity"
+# Launch using the new applicationId
+adb -s "$DEVICE" shell am start -n "com.shell.epubtoaudiobook/.MainActivity"
 
 echo ""
 echo "====================================="
